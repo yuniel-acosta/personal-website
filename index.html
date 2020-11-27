@@ -9,19 +9,23 @@
     <meta name="description" content="Personal website for all Yuniel Acosta Pérez links">
     <meta name="author" content="Yuniel Acosta Pérez">
 
+
     <!-- Mobile Specific Metas
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
 
     <!-- FONT
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
 
     <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton-light.css">
     <link rel="stylesheet" href="css/brands.css">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -29,129 +33,147 @@
 
 </head>
 <body>
-
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div class="container">
-    <div class="row">
-        <div class="column" style="margin-top: 10%">
-            <!-- Your Image Here -->
-            <img src="images/avatar.png" srcset="images/avatar@2x.png 2x">
+<div id="app">
+    <v-app>
+        <v-main>
+            <v-container>
+                <!-- Your Image Here -->
+                <v-avatar color="brown" size="200" class="ma-5">
+                    <img src="images/avatar.png" srcset="images/avatar@2x.png 2x">
+                </v-avatar>
+                <!-- Your Name -->
+                <h1 class=".text-h3 font-weight-bold">𝒴𝓊𝓃𝒾𝑒𝓁 𝒜𝒸𝑜𝓈𝓉𝒶 𝒫é𝓇𝑒𝓏</h1>
+                <h2 class=".text-h4 font-weight-medium"> Lic. Computer Science</h2>
+                <!-- Short Bio -->
+                <p class="font-weight-light text-center">
+                    Developer of web, desktop and mobile applications. Technology enthusiast.
+                    I like the challenge to constantly learn new technologies.
+                    More than 3 years of experience in the software industry. 😊</p>
+                <!-- Short Bio -->
 
-            <!-- Your Name -->
-            <h1>Yuniel Acosta Pérez</h1>
 
-            <!-- Short Bio -->
-            <p>
-                Lic. Computer Science
-                Developer of web, desktop and mobile applications. Technology enthusiast. I like the challenge to
-                constantly learn new technologies. More than 3 years of experience in the software industry. 😊</p>
-
-            <!-- Replace # with your profile URL. Delete whatever you don't need & create your own brand styles in css/brands.css -->
+                <!-- Replace # with your profile URL. Delete whatever you don't need & create your own brand styles in css/brands.css -->
 
 
-            <!-- Github -->
-            <a class="button button-github" href="https://github.com/yuniel-acosta"><img class="icon" src="icons/github.svg">Github</a>
-            <br>
+                <!-- Github -->
+                <a class="button button-github" href="https://github.com/yuniel-acosta">
+                    <img class="icon" src="icons/github.svg">Github</a>
+                <br>
 
-            <!-- Twitter -->
-            <a class="button button-twitter" href="https://twitter.com/yacosta738"><img class="icon" src="icons/twitter.svg">Twitter</a>
-            <br>
+                <!-- Twitter -->
+                <a class="button button-twitter" href="https://twitter.com/yacosta738">
+                    <img class="icon" src="icons/twitter.svg">Twitter</a>
+                <br>
 
-            <!-- Instagram -->
-            <a class="button button-instagram" href="https://www.instagram.com/yacosta738"><img class="icon" src="icons/instagram.svg">Instagram</a>
-            <br>
+                <!-- Instagram -->
+                <a class="button button-instagram" href="https://www.instagram.com/yacosta738">
+                    <img class="icon" src="icons/instagram.svg">Instagram</a>
+                <br>
 
-            <!-- Facebook -->
-            <a class="button button-facebook" href="https://www.facebook.com/yacosta738"><img class="icon" src="icons/facebook.svg">Facebook</a>
-            <br>
+                <!-- Facebook -->
+                <a class="button button-facebook" href="https://www.facebook.com/yacosta738">
+                    <img class="icon" src="icons/facebook.svg">Facebook</a>
+                <br>
 
-            <!-- LinkedIn -->
-            <a class="button button-linkedin" href="https://www.linkedin.com/in/yacosta738/"><img class="icon" src="icons/linkedin.svg">LinkedIn</a>
-            <br>
+                <!-- LinkedIn -->
+                <a class="button button-linkedin" href="https://www.linkedin.com/in/yacosta738/"><img class="icon"
+                                                                                                      src="icons/linkedin.svg">LinkedIn</a>
+                <br>
 
-<!--            &lt;!&ndash; YouTube &ndash;&gt;-->
-<!--            <a class="button button-youtube" href="#"><img class="icon" src="icons/youtube.svg">YouTube</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; YouTube &ndash;&gt;-->
+                <!--            <a class="button button-youtube" href="#"><img class="icon" src="icons/youtube.svg">YouTube</a>-->
+                <!--            <br>-->
 
-<!--            &lt;!&ndash; Snapchat &ndash;&gt;-->
-<!--            <a class="button button-snapchat" href="#"><img class="icon" src="icons/snapchat.svg">Snapchat</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; Snapchat &ndash;&gt;-->
+                <!--            <a class="button button-snapchat" href="#"><img class="icon" src="icons/snapchat.svg">Snapchat</a>-->
+                <!--            <br>-->
 
-<!--            &lt;!&ndash; Spotify &ndash;&gt;-->
-<!--            <a class="button button-spotify" href="#"><img class="icon" src="icons/spotify.svg">Spotify</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; Spotify &ndash;&gt;-->
+                <!--            <a class="button button-spotify" href="#"><img class="icon" src="icons/spotify.svg">Spotify</a>-->
+                <!--            <br>-->
 
-<!--            &lt;!&ndash; Reddit &ndash;&gt;-->
-<!--            <a class="button button-reddit" href="#"><img class="icon" src="icons/reddit.svg">Reddit</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; Reddit &ndash;&gt;-->
+                <!--            <a class="button button-reddit" href="#"><img class="icon" src="icons/reddit.svg">Reddit</a>-->
+                <!--            <br>-->
 
-<!--            &lt;!&ndash; Rocketseat &ndash;&gt;-->
-<!--            <a class="button button-rocketseat" href="#"><img class="icon" src="icons/rocketseat.svg">Rocketseat</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; Rocketseat &ndash;&gt;-->
+                <!--            <a class="button button-rocketseat" href="#"><img class="icon" src="icons/rocketseat.svg">Rocketseat</a>-->
+                <!--            <br>-->
 
-<!--            &lt;!&ndash; Medium &ndash;&gt;-->
-<!--            <a class="button button-medium" href="#"><img class="icon" src="icons/medium.svg">Medium</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; Medium &ndash;&gt;-->
+                <!--            <a class="button button-medium" href="#"><img class="icon" src="icons/medium.svg">Medium</a>-->
+                <!--            <br>-->
 
-<!--            &lt;!&ndash; Pinterest &ndash;&gt;-->
-<!--            <a class="button button-pinterest" href="#"><img class="icon" src="icons/pinterest.svg">Pinterest</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; Pinterest &ndash;&gt;-->
+                <!--            <a class="button button-pinterest" href="#"><img class="icon" src="icons/pinterest.svg">Pinterest</a>-->
+                <!--            <br>-->
 
-<!--            &lt;!&ndash; SoundCloud &ndash;&gt;-->
-<!--            <a class="button button-soundcloud" href="#"><img class="icon" src="icons/soundcloud.svg">SoundCloud</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; SoundCloud &ndash;&gt;-->
+                <!--            <a class="button button-soundcloud" href="#"><img class="icon" src="icons/soundcloud.svg">SoundCloud</a>-->
+                <!--            <br>-->
 
-<!--            &lt;!&ndash; Spectrum &ndash;&gt;-->
-<!--            <a class="button button-spectrum" href="#"><img class="icon" src="icons/spectrum.svg">Spectrum</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; Spectrum &ndash;&gt;-->
+                <!--            <a class="button button-spectrum" href="#"><img class="icon" src="icons/spectrum.svg">Spectrum</a>-->
+                <!--            <br>-->
 
-<!--            &lt;!&ndash; Figma &ndash;&gt;-->
-<!--            <a class="button button-figma" href="#"><img class="icon" src="icons/figma.svg">Figma</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; Figma &ndash;&gt;-->
+                <!--            <a class="button button-figma" href="#"><img class="icon" src="icons/figma.svg">Figma</a>-->
+                <!--            <br>-->
 
-<!--            &lt;!&ndash; Kit &ndash;&gt;-->
-<!--            <a class="button button-kit" href="#"><img class="icon" src="icons/kit.svg">Kit</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; Kit &ndash;&gt;-->
+                <!--            <a class="button button-kit" href="#"><img class="icon" src="icons/kit.svg">Kit</a>-->
+                <!--            <br>-->
 
-            <!-- Telegram -->
-            <a class="button button-telegram" href="https://t.me/yacosta738"><img class="icon" src="icons/telegram.svg">Telegram</a>
-            <br>
+                <!-- Telegram -->
+                <a class="button button-telegram" href="https://t.me/yacosta738"><img class="icon"
+                                                                                      src="icons/telegram.svg">Telegram</a>
+                <br>
 
-<!--            &lt;!&ndash; Tumblr &ndash;&gt;-->
-<!--            <a class="button button-tumblr" href="#"><img class="icon" src="icons/tumblr.svg">Tumblr</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; Tumblr &ndash;&gt;-->
+                <!--            <a class="button button-tumblr" href="#"><img class="icon" src="icons/tumblr.svg">Tumblr</a>-->
+                <!--            <br>-->
 
-<!--            &lt;!&ndash; Steam &ndash;&gt;-->
-<!--            <a class="button button-steam" href="#"><img class="icon" src="icons/steam.svg">Steam</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; Steam &ndash;&gt;-->
+                <!--            <a class="button button-steam" href="#"><img class="icon" src="icons/steam.svg">Steam</a>-->
+                <!--            <br>-->
 
-<!--            &lt;!&ndash; Discord &ndash;&gt;-->
-<!--            <a class="button button-discord" href="#"><img class="icon" src="icons/discord.svg">Discord</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; Discord &ndash;&gt;-->
+                <!--            <a class="button button-discord" href="#"><img class="icon" src="icons/discord.svg">Discord</a>-->
+                <!--            <br>-->
 
-<!--            &lt;!&ndash; Twitch &ndash;&gt;-->
-<!--            <a class="button button-twitch" href="#"><img class="icon" src="icons/twitch.svg">Twitch</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; Twitch &ndash;&gt;-->
+                <!--            <a class="button button-twitch" href="#"><img class="icon" src="icons/twitch.svg">Twitch</a>-->
+                <!--            <br>-->
 
-<!--            &lt;!&ndash; Mixer &ndash;&gt;-->
-<!--            <a class="button button-mixer" href="#"><img class="icon" src="icons/mixer.svg">Mixer</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; Mixer &ndash;&gt;-->
+                <!--            <a class="button button-mixer" href="#"><img class="icon" src="icons/mixer.svg">Mixer</a>-->
+                <!--            <br>-->
 
-<!--            &lt;!&ndash; Goodreads &ndash;&gt;-->
-<!--            <a class="button button-goodreads" href="#"><img class="icon" src="icons/goodreads.svg">Goodreads</a>-->
-<!--            <br>-->
+                <!--            &lt;!&ndash; Goodreads &ndash;&gt;-->
+                <!--            <a class="button button-goodreads" href="#"><img class="icon" src="icons/goodreads.svg">Goodreads</a>-->
+                <!--            <br>-->
 
-<!--            &lt;!&ndash; Skoob &ndash;&gt;-->
-<!--            <a class="button button-skoob" href="#"><img class="icon" src="icons/skoob.svg">Skoob</a>-->
-<!--            <br>-->
-            <br>
-            <p>Build your own by forking <a href="https://littlelink.io">LittleLink</a>.</p>
-
-        </div>
-    </div>
+                <!--            &lt;!&ndash; Skoob &ndash;&gt;-->
+                <!--            <a class="button button-skoob" href="#"><img class="icon" src="icons/skoob.svg">Skoob</a>-->
+                <!--            <br>-->
+                <br>
+                <p>Build your own by forking <a href="https://littlelink.io">LittleLink</a>.</p>
+            </v-container>
+        </v-main>
+    </v-app>
 </div>
 
+<!--Scripts-->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+    })
+</script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

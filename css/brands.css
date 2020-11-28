@@ -101,6 +101,15 @@ button:hover,
 .button.button-figma:focus {
   filter: brightness(90%) }
 
+/* Curriculum */
+.button.button-curriculum {
+  color: #FFFFFF;
+  background-color: #077ae5
+}
+.button.button-curriculum:hover,
+.button.button-curriculum:focus {
+  filter: brightness(90%) }
+
 /* Github */
 .button.button-github {
   color: #FFFFFF;
